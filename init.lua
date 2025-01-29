@@ -9,3 +9,8 @@ require("lualine").setup({
     },
   },
 })
+
+vim.cmd([[
+  highlight GitSignsAdd guifg=Green
+  highlight GitSignsChange guifg=#673AB7
+]])
