@@ -11,3 +11,5 @@ vim.api.nvim_create_user_command("ToggleWrap", function()
 end, {})
 
 vim.g.snacks_animate = false
+
+vim.g.lazyvim_python_lsp = "pylsp"
